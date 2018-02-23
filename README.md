@@ -12,10 +12,10 @@ This project requires:
 
 ### Python
 Install using pip
-* PySerial
-* Numpy
-* Scikit-learn
-* Matplotlib
+* [PySerial](https://pypi.python.org/pypi/pyserial)
+* [Numpy](https://pypi.python.org/pypi/numpy)
+* [Scikit-learn](https://pypi.python.org/pypi/scikit-learn/0.19.0)
+* [Matplotlib](https://pypi.python.org/pypi/matplotlib)
 
 ### Arduino
 Install the following libraries using the Arduino IDE package manager
@@ -26,7 +26,11 @@ Install the following libraries using the Arduino IDE package manager
 
 ## Hardware setup
 
-Follow Adafruit's tutorial [here](https://learn.adafruit.com/adafruit-tsl2591)
+* Follow Adafruit's tutorial [here](https://learn.adafruit.com/adafruit-tsl2591)
+
+* Open Arduino IDE and upload **Brightness_logger.ino**
+* Check the Arduino port in the IDE and copy it to the **settings.xml** file
+Note the port can change!
 
 ## Usage
 ### Configuration step
@@ -35,3 +39,7 @@ Open the **settings.xml** and change the data fields to match your computer path
 Run **brightness_logger.py** to retrieve brightness value (adjusted manually in Reactable) and Light Sensor Data
 ### Visualize and Train SVM(regression) model
 Run **svmExample.py**
+
+
+## Contact
+Mail me to **pr.calopa@gmail.com** for any questions ;)
