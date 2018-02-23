@@ -28,6 +28,13 @@ Install the following libraries using the Arduino IDE package manager
 
 * Follow Adafruit's tutorial [here](https://learn.adafruit.com/adafruit-tsl2591)
 
+| Arduino PIN        | TSL2591           |
+| ------------- |:-------------:|
+| 5V      | Vin |
+| GND      | GND      |  
+| A4 | SDA      |  
+| A5 | SCL      |  
+
 * Open Arduino IDE and upload **Brightness_logger.ino**
 * Check the Arduino port in the IDE and copy it to the **settings.xml** file
 <br>Note the port can change!
