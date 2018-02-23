@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<logger_settings>
+    <reactivision_settings_path>/Users/pere-upf/Documents/Reactable/Preferences/reactivision_settings.xml</reactivision_settings_path>
+    <serial_port>/dev/cu.usbmodem14341</serial_port>
+    <baud_rate>9600</baud_rate>
+    <output_csv>some.csv</output_csv>
+</logger_settings>
