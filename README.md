@@ -30,7 +30,7 @@ Install the following libraries using the Arduino IDE package manager
 
 * Open Arduino IDE and upload **Brightness_logger.ino**
 * Check the Arduino port in the IDE and copy it to the **settings.xml** file
-Note the port can change!
+<br>Note the port can change!
 
 ## Usage
 ### Configuration step
