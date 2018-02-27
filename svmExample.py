@@ -1,5 +1,7 @@
 import numpy as np
 from sklearn.svm import SVR
+import matplotlib
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import csv
 import xml.etree.ElementTree
